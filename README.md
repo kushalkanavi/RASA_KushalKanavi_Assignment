@@ -1,7 +1,7 @@
 ## Install Virtual Environment
 ```As both Django and RASA work with Python Its better to create a Virtual Environment.
 - virtualenv envname --python=python3
-    - type this command to create a virtual environment, where envname can any name chosen by user
+    - type this command to create a virtual environment, where envname can be any name chosen by user
 - To Activate Virtual Environment
     - source envname/bin/activate
 - To Deactivate Virtual Environment
@@ -20,7 +20,7 @@ Once libraries are installed Open three terminal/command prompt window
 ## For running Django Server
 ```Go to backend_django folder.
 To Install type this command
-- pip install -r requirements.txt    
+    - python manage.py runserver
 ```
 
 ## For running RASA Server
