@@ -18,22 +18,25 @@ Once libraries are installed Open three terminal/command prompt window
 
 
 ## For running Django Server
-```Go to backend_django folder.
-To Install type this command
+```
+Go to backend_django folder.
     - python manage.py runserver
 ```
 
 ## For running RASA Server
-```Go to rasa_chat folder, and type
+```
+Go to rasa_chat folder, and type
     - rasa run -m models --enable-api --cors "*"
 ```
 
 ## For running RASA Actions Server 
-```Go to rasa_chat folder, and type
+```
+Go to rasa_chat folder, and type
     - rasa run actions
 ```
 ## For Seeing Chat Applicatio
-```After starting all three server.
+```
+After starting all three server.
     - Goto Browser and type : http://localhost:8000/chat/
 ```
 
